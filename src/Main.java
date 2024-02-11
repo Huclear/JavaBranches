@@ -1,7 +1,5 @@
 import java.util.List;
 import java.util.Scanner;
-//longitude - долгота
-//latitude - широта
 public class Main {
     public static void main(String[] args) {
 
@@ -22,7 +20,7 @@ public class Main {
         point1[1] = Math.toRadians(sc.nextDouble());
         sc.nextLine();
 
-        //инициализация координат 1 точки
+        //инициализация координат 2 точки
         System.out.println("Print coordinates of second point (first latitude, then - longitude)");
         point2[0] = Math.toRadians(sc.nextDouble());
         sc.nextLine();
