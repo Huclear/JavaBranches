@@ -47,11 +47,11 @@ public class Main {
                 isLoggedIn = true;
             }
 
-
+            getFirms();
             System.out.println("Select the firm number");
             firmPosition = sc.nextInt();
             sc.nextLine();
-            getFirms();
+
             getGoods(firmPosition);
             orders.add(new Object[]{userIndex, firmPosition, selectGoods(firmPosition)});
             System.out.println("Type '-1' to stop this hell-machine and '-2' to exit account");
